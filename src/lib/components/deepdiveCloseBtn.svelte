@@ -6,7 +6,7 @@
 
 <button
   on:click
-  class="relative overflow-hidden rounded-full bg-white transition-colors duration-300 ease-in-out"
+  class="relative overflow-hidden rounded-full bg-white transition-colors duration-300 ease-in-out z-50"
   class:!bg-transparent={scrollProgress >= 1}
   on:click={() => {
     isDeepDiveOpen = false;
